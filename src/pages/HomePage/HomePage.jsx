@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./HomePage.scss";
-import Slider from "../../components/Slider/Slider";
+import Sliders from "../../components/Slider/Slider";
 import Category from "../../components/Category/Category";
 import ProductList from "../../components/ProductList/ProductList";
 import SingleCategory from "../../components/SingleCategory/SingleCategory";
@@ -38,7 +38,7 @@ const HomePage = () => {
     <>
       <div className="home-page">
         {/* Slider */}
-        <Slider />
+        <Sliders />
 
         {/* Category */}
         <Category categories={categories} status={categoryStatus} />
